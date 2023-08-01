@@ -1,6 +1,6 @@
 function reverseString(str){
 
- let reverseStr="";
+    let reverseStr="";
     for (let index = str.length-1; index >= 0; index--) {
      let char=str.charAt(index);
      if(char!=" "){
