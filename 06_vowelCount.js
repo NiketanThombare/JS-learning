@@ -14,6 +14,21 @@ function vowelCount(str){
 vowelCount("I am very good UI Developer");
 
 
+function oddPositionedChars(str) {
+    for (let index = 0; index < str.length; index++) {
+        const char = str.charAt(index);
+        // Log only odd positioned chars on console and do not consider empty spaces
+        if(char!=" " && index%2==1)
+    }
+
+}
+oddPositionedChars("hello");
+oddPositionedChars("test");
+
+
+
+
+
 
 
 
