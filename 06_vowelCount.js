@@ -18,7 +18,9 @@ function oddPositionedChars(str) {
     for (let index = 0; index < str.length; index++) {
         const char = str.charAt(index);
         // Log only odd positioned chars on console and do not consider empty spaces
-        if(char!=" " && index%2==1)
+        if(char!=" " && index%2==1){
+
+        }
     }
 
 }
@@ -47,3 +49,21 @@ let sum = function(){
      console.log(`Sum of first 20 numbers is : ${totalSum}`);
  }
  sum();
+console.log("---------------------------------");
+let strNew="hii good morning";
+ const count = strNew.match(/[aeiou]/gi).length;
+ console.log(count);
+
+ console.log("---------------------------------");
+ let result = '';
+for(let i = 1; i <= 3; i++) {
+    for(let j = 3; j>=i; j--){
+       result = result.concat(" ")
+       }
+       for(let k =1; k <= 5; k=k+2) {
+        result = result.concat("* ")
+       }
+       result = result.concat('\n')
+        
+    }
+    console.log(result);
