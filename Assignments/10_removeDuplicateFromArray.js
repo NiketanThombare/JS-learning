@@ -13,7 +13,7 @@ console.log(uniqueArray);
 
 console.log('-----------Aproch 2--------------------');
 
-let arr= [4, 5,4 , 5, 8, 5, 7, 8, 9, 7, 8];
+let arr= [4, 5, 4 , 5, 8, 5, 7, 8, 9, 7, 8];
 
 for (let i = 0; i < arr.length; i++) {
   for (let j = i + 1; j < arr.length; j++) {
