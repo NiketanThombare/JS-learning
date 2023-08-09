@@ -8,3 +8,6 @@ let getFactorial=function(number) {
 
 }
 getFactorial(5);
+getFactorial(9);
+getFactorial(11);
+getFactorial(7);
