@@ -1,0 +1,10 @@
+{
+  "rollNo": 123,
+  "fullName": "Jenny Atand",
+  "marks": "98%",
+  "awards": {
+    "hsc": "School topper",
+    "ssc": "Division Topper",
+    "graduation": "Gold Medalist"
+  }
+}
