@@ -24,6 +24,7 @@ function stringHandsOn()
    var indexOfGood=trimedString.indexOf('good');
    console.log(`Index of word "good" is : ${indexOfGood}`);
    console.log(`----------------step 8--------------------------------------------`);
+   console.log(trimedString);
    var slicedStrng=trimedString.slice(22);
    console.log(`Substring is : ${slicedStrng}`);
    console.log(`----------------step 9--------------------------------------------`);

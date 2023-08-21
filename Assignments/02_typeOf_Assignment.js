@@ -24,3 +24,4 @@ totalCount=107;
 console.log(" value is : ",totalCount);
 console.log(" type of value : ",typeof totalCount);
 console.log(typeof null);
+

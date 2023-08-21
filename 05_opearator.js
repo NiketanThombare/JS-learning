@@ -6,10 +6,14 @@ console.log(`Result is : ${result}`);
 console.log(`== Comparison ${47 == '47'}`);
 console.log(`== Comparison ${89 == 98}`);
 
+console.log('---------------------------------------------');
+
 var result = num1===num2;
 console.log(`Result is : ${result}`);
 console.log(`=== Comparison ${47 === "47"}`);
 console.log(`=== Comparison ${'47' === "47"}`);
+
+console.log('---------------------------------------------');
 
 var result = num1!=num2;
 console.log(`Using != Result is : ${result}`);

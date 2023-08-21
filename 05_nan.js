@@ -4,10 +4,12 @@ var num2 = 0;
 var result = num1/num2;
 console.log(result);
 
+console.log('---------------------------------------------');
+
 var num3 = "100";
 console.log(`Type of num3 is: ${typeof num3}`);
 var result = +num3;
-console.log(`Type of result is: ${result}`);
+console.log(` result is: ${result}`);
 console.log(`Type of result is: ${typeof result}`);
 
 console.log(`---------------------`);
