@@ -7,11 +7,11 @@ class Employee{
         this.emp_company=emp_company;
     }
 }
-const emp_anil=new Employee(22,"Anil","IT",50000,"TCS");
-const emp_radha=new Employee(33,"Radha","HR",74000,"Wipro");
-const emp_rishi=new Employee(55,"Rishi","Finance",47000,"TCS");
-const emp_sonali=new Employee(66,"Sonali","Finance",45000,"Infy");
-const emp_monica=new Employee(77,"Monica","IT",40000,"Wipro");
+const emp_anil=new Employee(501,"Anil","IT",50000,"TCS");
+const emp_radha=new Employee(301,"Radha","HR",74000,"Wipro");
+const emp_rishi=new Employee(401,"Rishi","Finance",47000,"TCS");
+const emp_sonali=new Employee(201,"Sonali","Finance",45000,"Infy");
+const emp_monica=new Employee(101,"Monica","IT",40000,"Wipro");
 const emp_viny=new Employee(88,"Vinayak","IT",75000,"TCS");
 const emp_mahi=new Employee(99,"Mahesh","HR",85000,"Infy");
 

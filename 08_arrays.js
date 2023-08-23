@@ -120,7 +120,7 @@ var array = [10, 20, 30, 50, 10, 80, 20];
 
 console.log(array.slice(3));
 
-console.log(array.slice(1, 4));
+console.log(array.slice(2, 5));
 
  
 
