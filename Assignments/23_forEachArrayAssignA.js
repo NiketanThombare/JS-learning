@@ -48,3 +48,10 @@ arrayNumbers.forEach((element)=>{
             }
         });
        
+
+
+
+        const arrayNumbers1=[1,-7,40,502,-77,91,0,108,89,-601];
+       let x= JSON.stringify(arrayNumbers1);
+       console.log(typeof x);
+       console.log(x);
