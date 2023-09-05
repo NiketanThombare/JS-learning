@@ -14,6 +14,8 @@ console.log(isAvailable);
 
 let is9Available = mySet.has(9)
 console.log(is9Available);
+console.log(`--------------------------------------------------------------`);
+console.log(mySet.size);
 
 console.log(`Set size is ${mySet.size}`);
 
