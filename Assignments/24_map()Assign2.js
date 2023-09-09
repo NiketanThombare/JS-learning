@@ -38,3 +38,7 @@ let newArray2=arrayEmployees.map((employee)=>{
     return employee.emp_id;
   })
   console.log(newArray3);
+
+
+//const arrayEmployees = [emp_anil,emp_radha,emp_rishi,emp_sonali,emp_gonika,emp_viny,emp_mahi];
+arrayEmployees.filter
