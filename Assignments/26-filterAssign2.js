@@ -29,7 +29,7 @@ console.log(`-----------------------step 1-------------------`);
 const employeeTcs = arrayEmployees.filter((employee) => {
   return employee.emp_company === "TCS";
 });
-console.log(employeeTcs);
+
 for (const employee of employeeTcs) {
   console.log(
     `Company Name: ${employee.emp_company}, Employee Name: ${employee.emp_name}`

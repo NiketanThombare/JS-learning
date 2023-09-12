@@ -1,54 +1,38 @@
-class Employee {
-    constructor(emp_id, emp_name, emp_dept, emp_salary, emp_company) {
-      this.emp_id = emp_id;
-      this.emp_name = emp_name;
-      this.emp_dept = emp_dept;
-      this.emp_salary = emp_salary;
-      this.emp_company = emp_company;
-    }
-  }
-  const emp_anil = new Employee(22, "Anil", "IT", 50000, "TCS");
-  const emp_radha = new Employee(33, "Radha", "HR", 74000, "Wipro");
-  const emp_rishi = new Employee(55, "Rishi", "Finance", 47000, "TCS");
-  const emp_sonali = new Employee(66, "Sonali", "Finance", 45000, "Infy");
-  const emp_monika = new Employee(77, "Monika", "IT", 40000, "Wipro");
-  const emp_viny = new Employee(88, "Vinayak", "IT", 75000, "TCS");
-  const emp_mahi = new Employee(99, "Mahesh", "HR", 85000, "Infy");
-  
-  let arrayEmployees = [
-    emp_anil,
-    emp_radha,
-    emp_rishi,
-    emp_sonali,
-    emp_monika,
-    emp_viny,
-    emp_mahi,
-  ];
-console.log(`----------step 1---------------sorting employee by id `);
-  arrayEmployees.sort((emp1,emp2)=>{
-return emp1.emp_id-emp2.emp_id
-  });
+const arrayRollNumbers=[113,45,56,11,32,45,109,799,56,45];
+console.log(`original Array ; ${arrayRollNumbers}`);
+console.log("------------------step1-----reverse the array-------------------");
+arrayRollNumbers.reverse();
+console.log(arrayRollNumbers);
 
-  for (const epmloyee of arrayEmployees) {
-    console.log(` Employee id: ${epmloyee.emp_id}  Employee Name: ${epmloyee.emp_name} Employee Dept: ${epmloyee.emp_dept}`);
-  }
+console.log("------------------step2-----sorting with sort()-------------------");
+const arrayRollNumbers1=[113,45,56,11,32,45,109,799,56,45];
+arrayRollNumbers1.sort();
+console.log(arrayRollNumbers1);
 
-  console.log(`----------step 2---------------sorting employee by dept `);
-  arrayEmployees.sort((emp1,emp2)=>{
-return (emp1.emp_dept>emp2.emp_dept)?+1:-1;
-  });
+console.log("------------------step3-----Ascending order with sort()-------------------");
+const arrayRollNumbers2=[113,45,56,11,32,45,109,799,56,45];
+arrayRollNumbers2.sort((num1,num2)=>{
+return num1-num2;
+});
+console.log(arrayRollNumbers2);
 
-  for (const epmloyee of arrayEmployees) {
-    console.log(`Employee Dept: ${epmloyee.emp_dept} Employee id: ${epmloyee.emp_id}  Employee Name: ${epmloyee.emp_name} `);
-  }
+console.log("------------------step4-----greatest Number-------------------");
+const arrayRollNumbers3=[113,45,56,11,32,45,109,799,56,45];
+arrayRollNumbers3.sort((num1,num2)=>{
+return num1-num2;
+});
+console.log(`greatest number is : ${arrayRollNumbers3[arrayRollNumbers3.length-1]}`);
 
 
-  console.log(`----------step 3---------------sorting descending employee by sal `);
-  arrayEmployees.sort((emp1,emp2)=>{
-return (emp1.emp_salary>emp2.emp_salary)?-1:+1;
-  });
+console.log("------------------step5-----smallesst Number-------------------");
+const arrayRollNumbers4=[113,45,56,11,32,45,109,799,56,45];
+arrayRollNumbers4.sort((num1,num2)=>{
+return num1-num2;
+});
+console.log(`Smallest number is : ${arrayRollNumbers4[0]}`);
 
-  for (const epmloyee of arrayEmployees) {
-    console.log(`Employee sallary: ${epmloyee.emp_salary}  Employee Name: ${epmloyee.emp_name} company: ${epmloyee.emp_company}  `);
-  }
+console.log("------------------step6-----Removing duplicate  Number-------------------");
 
+const arrayRollNumbers5=[113,45,56,11,32,45,109,799,56,45];
+let arrayRollNumbers6=[...new Set(arrayRollNumbers5)]
+console.log(arrayRollNumbers6);
