@@ -1,4 +1,9 @@
 class Student {
+  fullName;
+  rollNo;
+  college;
+  emailId
+  mobile;
     constructor(fullName, rollNo, college, emailId, mobile ){
       this.fullName = fullName;
       this.rollNo = rollNo;

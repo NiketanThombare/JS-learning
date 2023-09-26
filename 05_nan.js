@@ -49,6 +49,8 @@ console.log(`Value of num: ${num} and it's typeof ${typeof num}`);
 var result = String(num);
 console.log(`Result is ${result} and it's type is: ${typeof result}` );
 
+console.log(`--------------------------------------`);
+
 var num = 100;
 var result = Boolean(num);
 console.log(`Result is ${result} and it's type is: ${typeof result}` );
